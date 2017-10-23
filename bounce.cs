@@ -477,4 +477,9 @@ public class bounce : MonoBehaviour
             Advertisement.Show();
         }
     }
+    
+    public IEnumerator panel(){
+    yield return new WaitForSeconds(1.5f);
+    print("it works !");
+    }
 }
