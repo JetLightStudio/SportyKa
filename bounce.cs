@@ -479,6 +479,9 @@ public class bounce : MonoBehaviour
     }
     
     public IEnumerator panel(){
+    for(int i = 0; i < 5; i++){
+    gameObject.score += 2;
+    }
     yield return new WaitForSeconds(1.5f);
     print("it works !");
     }
